@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-   float x , n=2 , sum ;
+   float x , n=6 , sum ;
    
-   while(n<=69)
+   while(n<=19)
    {
        x = 1/n ;
        sum=sum+x ;
@@ -13,6 +13,6 @@ int main()
        
    }
     cout << sum ;
-    
+
     return 0 ;
 }
